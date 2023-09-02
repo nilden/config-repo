@@ -4,21 +4,21 @@ allow_mixing
 rectangle "Polar Bookshop \n [Software system]" #line.dashed {
     rectangle catalogService [
         **Catalog Service**
-        [Container: "Spring Boot"]
+        [Container: Spring Boot]
 
         Provides functionality for managing the books in the catalog
     ]
 
     rectangle configService [
         **Config Service**
-        [Container: "Spring Boot"]
+        [Container: Spring Boot]
 
         Provides centralized configuration
     ]
 
     database configRepo [
-        **Catalog Service**
-        [Container: "Spring Boot"]
+        **Config Repo**
+        [Container: Git]
 
         Stores configuration data
     ]
