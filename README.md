@@ -1,0 +1,2 @@
+Spring Cloud Config Server is a project that lets you set up a configuration server with minimal effort. 
+It’s a standard Spring Boot application with specific properties that enable the configuration server functionality and the Git repository as the con- figuration data backend. The Polar Bookshop system will use this server to provide configuration to the Catalog Service application. 
